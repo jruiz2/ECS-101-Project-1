@@ -13,6 +13,7 @@
 # and a definition and have placed it 
 # in its own pull request, so that we can edit it
 # and finalize it later in the main branch.
+# We will work on and finalize decode by this weekend.
 
 # Questions for Dean Smith:
 # Are 5-bit and 6-bit strings okay to use? Is it a 
