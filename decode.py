@@ -1,13 +1,13 @@
-#decode.py
-#ECS 101
-#Tristan Waddell, Julia Ruiz, Melissa Tang, Xinyi Wang
-#Given binary code, converts the binary code into a string, and print
+# decode.py
+# ECS 101
+# Tristan Waddell, Julia Ruiz, Melissa Tang, Xinyi Wang
+# Given binary code, converts the binary code into a string, and print
 
-#Asks user for an input
+# Asks user for an input
 my_string = input("Enter a bit string separated by spaces: ")
 my_ans = ''
 
-#An if statement to find the corresponding letter for each bit string
+# Use if statement to find the corresponding letter for each bit string
 def newCode(bits):
     code = ""
     if bits == "00010":
@@ -132,9 +132,10 @@ def newCode(bits):
         code = " "
     return code
 
-#Splits the string into an array
+# Splits the string into an array
 my_string = my_string.split()
-#A loop that passes through each individual number of the bit string and adds it to the answer
+
+# A loop that passes through each individual number of the bit string and adds it to the answer
 for i in range(0, len(my_string)):
     val = newCode(my_string[i])
     my_ans = my_ans + val
