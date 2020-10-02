@@ -140,6 +140,6 @@ for i in range(0, len(my_string)):
     val = newCode(my_string[i])
     my_ans = my_ans + val
 
-#Prints the string
+# Prints the string
 print (my_ans)
 
