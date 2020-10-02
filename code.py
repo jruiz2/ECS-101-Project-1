@@ -1,14 +1,14 @@
-#code.py
-#ECS 101
-#Tristan Waddell, Julia Ruiz, Melissa Tang, Xinyi Wang
-#Given a string, converts the string into our binary code, and prints
+# code.py
+# ECS 101
+# Tristan Waddell, Julia Ruiz, Melissa Tang, Xinyi Wang
+# Converts and prints user string into binary code
 
-#Asks user for input
+# Asks user for input
 my_string = input("Enter a string: ")
 my_ans = ""
 ch = ""
 
-#Finds the code for the given character
+# Finds the code for the given character
 def findCode(ch):
     code = ""
     if ch == "a":
@@ -133,11 +133,11 @@ def findCode(ch):
         code = "00011 "
     return code
 
-#Loops through the given string and finds the code for each character
+# Loops through the given string and finds the code for each character
 for i in range(0, len(my_string)):
     val = findCode(my_string[i])
     my_ans = my_ans + val
 
-#Prints the binary code
+# Prints the binary code
 print (my_ans)
 
