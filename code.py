@@ -1,6 +1,9 @@
+#code.py
 #ECS 101
 #Tristan Waddell, Julia Ruiz, Melissa Tang, Xinyi Wang
 #Given a string, converts the string into our binary code, and prints
+
+#Asks user for input
 my_string = input("Enter a string: ")
 my_ans = ""
 ch = ""
