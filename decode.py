@@ -1,7 +1,11 @@
+#decode.py
+#ECS 101
+#Tristan Waddell, Julia Ruiz, Melissa Tang, Xinyi Wang
+#Given binary code, converts the binary code into a string, and print
+
 #Asks user for an input
 my_string = input("Enter a bit string separated by spaces: ")
 my_ans = ''
-
 
 #An if statement to find the corresponding letter for each bit string
 def newCode(bits):
@@ -135,5 +139,6 @@ for i in range(0, len(my_string)):
     val = newCode(my_string[i])
     my_ans = my_ans + val
 
+#Prints the string
 print (my_ans)
 
