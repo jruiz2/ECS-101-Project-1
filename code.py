@@ -135,5 +135,6 @@ for i in range(0, len(my_string)):
     val = findCode(my_string[i])
     my_ans = my_ans + val
 
+#Prints the binary code
 print my_ans
 
