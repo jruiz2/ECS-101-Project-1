@@ -139,5 +139,5 @@ for i in range(0, len(my_string)):
     my_ans = my_ans + val
 
 #Prints the binary code
-print my_ans
+print (my_ans)
 
