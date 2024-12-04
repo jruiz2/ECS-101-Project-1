@@ -20,3 +20,8 @@
 # weird or too long of a combination?
 # Is a long loop/if statement okay if it does the job?
 # We appreciate any feedback on our code! Thank you so much! :)
+
+# Response from Dean Smith: Great questions!
+# Not weird to use 5- and 6-bit strings. I might actually do the same thing if I were you!
+# Sure, no problem with a big if loop. This is more about creativity than coding
+# Thanks for getting started and having some really cool ideas!
